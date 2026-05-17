@@ -13,5 +13,11 @@ void greet() {
 int main() {
     std::cout << "Main program started" << std::endl;
     greet();
+    calculateSum();
+    showMessage();
     return 0;
+}
+
+void showMessage() {
+    cout << "Feature branch work in progress" << endl;
 }
