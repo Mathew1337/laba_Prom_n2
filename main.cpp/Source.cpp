@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Новая функция, которую мы добавим
+
 void greet() {
     std::cout << "Hello from feature branch!" << std::endl;
 }
