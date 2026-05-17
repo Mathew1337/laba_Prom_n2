@@ -1,23 +1,33 @@
 #include <iostream>
 
-// новая функция
+// Прототипы функций
+void calculateSum();
+void greet();
+void showMessage();
+
+// Новая функция для вычисления суммы
 void calculateSum() {
     int a = 5, b = 10;
-    cout << "Sum: " << a + b << endl;
+    std::cout << "Sum: " << a + b << std::endl;
 }
 
+// Функция приветствия
 void greet() {
     std::cout << "Hello from feature branch!" << std::endl;
 }
 
+// Главная функция
 int main() {
     std::cout << "Main program started" << std::endl;
+
     greet();
     calculateSum();
     showMessage();
+
     return 0;
 }
 
+// Дополнительное сообщение
 void showMessage() {
-    cout << "Feature branch work in progress" << endl;
+    std::cout << "Feature branch work in progress" << std::endl;
 }
