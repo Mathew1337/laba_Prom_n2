@@ -13,7 +13,7 @@ void calculateSum() {
 
 // Функция приветствия
 void greet() {
-    std::cout << "Hello from branch A!" << std::endl;
+    std::cout << "Hello from branch A and B!" << std::endl;
 
 }
 
