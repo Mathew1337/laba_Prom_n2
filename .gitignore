@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.dll
+*.obj
+*.pdb
+
+# Project specific
+main.cpp/x64/
+main.cpp/Debug/
+main.cpp/Release/
+
+# Build files
+*.user
+*.suo
+*.sln.docstates
+
+# Git
+*.log
+*.tmp
